@@ -1,0 +1,86 @@
+---
+title: "Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+```
+
+```{r}
+data("ny_noaa")
+
+ny_noaa_2008_sample <- ny_noaa %>%
+  filter(id %in% sample(unique(id), length(unique(id)) / 10)) %>%
+  mutate(across(c(tmin, tmax, prcp, snow, snwd), as.numeric),
+         tmin = tmin / 10,
+         tmax = tmax / 10,
+         prcp = prcp / 10,
+         date = as.Date(date)) %>%
+  filter(date >= as.Date("2008-01-01") & date <= as.Date("2008-12-31")) 
+```
+
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+ny_noaa_2008_sample %>%
+  filter(!is.na(tmax) & !is.na(tmin) & !is.na(id)) %>%
+  mutate(text_label = str_c("Max Temperature: ", tmax, "\nMin Temperature: ", tmin)) %>%
+  plot_ly(
+    x = ~tmax, 
+    y = ~tmin, 
+    color = ~id, 
+    colors = "viridis", 
+    text = ~text_label, 
+    type = "scatter", 
+    mode = "markers", 
+    marker = list(opacity = 0.5)
+  )
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+ny_noaa_2008_sample %>%
+  filter(!is.na(tmax)) %>%
+  mutate(id = fct_reorder(as.factor(id), tmax)) %>%
+  plot_ly(
+    x = ~id, 
+    y = ~tmax, 
+    color = ~id, 
+    colors = "viridis",  
+    type = "box"
+  )
+```
+
+### Chart C
+
+```{r}
+avg_prcp <- ny_noaa_2008_sample %>%
+  group_by(id) %>%
+  summarize(avg_prcp = mean(prcp, na.rm = TRUE)) %>%
+  filter(!is.na(avg_prcp)) 
+
+avg_prcp %>%
+  plot_ly(
+    x = ~id, 
+    y = ~avg_prcp,
+    color = ~id,
+    colors = "viridis",
+    type = "bar"
+  )
+```
+
