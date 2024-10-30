@@ -20,6 +20,6 @@ This is a picture of my cute cat: Yoki
 <img src = "images/IMG_9199.JPG" style = "width:60%">
 
 ### Link to Page About Me
-Want to know more about me and my academic and professional experience, please click [About Me](about.html)
+More about my academic and professional experience? Click [About Me](about.html)
 
 
