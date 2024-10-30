@@ -10,9 +10,51 @@ output:
 
 ## Education
 
-### Columbia University - Mailman School of Public Health     
-New York, U.S.A    
-*Master of Public Health in Epidemiology and Certificate in Applied Biostatistics and Public Health*    
-*Expected May 2025*\
-*Relevant Coursework: Design and Conduct of Observational Epi, Analysis of Categorical Data, Applications of Epidemiologic Research Methods, Applied Regression I, Data Science I*
+### Columbia University - Mailman School of Public Health (New York, U.S.A)   
+* Master of Public Health in Epidemiology and Certificate in Applied Biostatistics and Public Health   
+* Expected May 2025
+* Relevant Coursework: Design and Conduct of Observational Epi, Analysis of Categorical Data, Applications of Epidemiologic Research Methods, Applied Regression I, Data Science I
+
+### New York University - Steinhardt School of Culture, Education, and Human Development    (New York, U.S.A)
+
+* Bachelor of Science in Nutrition Science
+* May 2023
+* Relevant Coursework: Modern Chemistry Organic & Biological Chemistry, Intro to Foods and Food Science, Nutrition and Health, Clinical Nutrition Assessment, Human Physiology 
+
+## Work Experience
+
+### Hunter College NYC Food Policy Center  (New York, U.S.A)
+* Intern (August 2022-Dec 2022)
+* Distributed calls tasks to various types of social service organizations, retail food stores, food pantries, and soup kitchens to maintain regular update of hours, services, programs and resources available in the Food Resource Guides
+* Organized and delivered real-time, adequate and updated food resources to community members in need
+
+### Changzhou Second People's Hospital (Changzhou, China)
+* Intern in Department of Science and Education (June 2022- July 2022)
+* Worked closely with in-hospital staff on administering medical nutrition therapy to patients with prediabetes/type II diabetes
+* Provided dietary and behavioral advice with patients; instructed patients to look for and record contributions of major macronutrients
+from common foods; provided lifestyle-related counseling and behavioral exercises to relieve patients’ symptoms and minimize their
+needs for glucose-lowering medications
+
+### Food Science Institute (Hangzhou, China)
+* Intern (May 2021 - July 2021)
+* Researched and developed dairy and plant-based products; performed tasks included raw materials research, formula design, stability test, and consumer feedback evaluations
+* Conducted lab-based research on effects of distinct yeasts on lactic acid fermentation for yogurt-related products; evaluated and
+compared potential inclusion of three distinct types of yeasts for their influences on the taste and flavor of the yogurt products
+* Collaborated with team members and facilitated the launching of two new products on food market (i.e. meal replacement shakes and
+healthy yogurt specifically designed for female consumers)
+
+## Academic Project
+
+### Research Project “The Prediabetes/Diabetes Care & Control Program” (New York, U.S.A)
+* May 2022
+* Project aim: prevent half of the newly diagnosed prediabetes patients who were enrolled in the local Supplemental Nutrition Assistance Program (SNAP) programs from subsequent progression to type 2 diabetes by improving blood glucose control through lifestyle changes,
+including dietary modifications and regular physical activities
+* Conducted literature search related to the proposed behavioral objectives; examined program feasibility by evaluating and comparing
+the proposed program with other programs that were currently available; identified targeted populations of the program
+* Assessed patients’ needs and drafted a 13-page proposal to provide nutrition education for local middle-aged working adults with prediabetes
+
+## Skills & Volunteer Expereince
+* Technical skills: Microsoft PowerPoint, MS Excel, MS Word, SAS
+* Language Skills: Mandarin, English
+* Volunteer Experience: Tutored eighth-grade students at an youth-serving organization, Publicolor, from Sept. 2021 to Dec. 2021, in New York, U.S.A & Voluntered at God’s Love We Deliver organization, observing and taking part in various aspects of the food production and management cycle, including Kitchen Projects, Baking and Meal Packaging in New York, U.S.A
 
