@@ -1,0 +1,25 @@
+---
+title: "Welcome to My Website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+## This is KK's awesome website!
+
+My name is KK Chen.
+
+### Local Image 
+There is a picture of me!
+
+<img src = "images/2491730249659_.pic.jpg" style = "width:60%">
+
+This is a picture of my cute cat: Yoki
+
+<img src = "images/IMG_9199.JPG" style = "width:60%">
+
+### Link to Page About Me
+If you want to know more about me and my academic and professional experience, please click [About Me](about.html)
+
+

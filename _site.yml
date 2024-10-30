@@ -1,0 +1,14 @@
+name: "Yay internet!"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "About Me"
+      href: about.html
+    - icon: fa-envelope fa-lg
+      href: mailto:<tc3326@cumc.columbia.edu>
+    - icon: fa-github fa-lg
+      href: http://github.com/tianrong06/
+output:
+  html_document:
+    theme: cerulean

@@ -1,0 +1,18 @@
+---
+title: "About Me"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+## KK Chen
+
+## Education
+
+### Columbia University - Mailman School of Public Health     
+New York, U.S.A    
+*Master of Public Health in Epidemiology and Certificate in Applied Biostatistics and Public Health*    
+*Expected May 2025*\
+*Relevant Coursework: Design and Conduct of Observational Epi, Analysis of Categorical Data, Applications of Epidemiologic Research Methods, Applied Regression I, Data Science I*
+
